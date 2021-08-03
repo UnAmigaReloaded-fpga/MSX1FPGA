@@ -1,0 +1,605 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -49.447
+TNS   : -2254.850
+
+Type  : Slow 1200mV 85C Model Setup 'clocks:clks|clock_3m_s'
+Slack : -21.498
+TNS   : -9283.252
+
+Type  : Slow 1200mV 85C Model Setup 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : -20.402
+TNS   : -13545.136
+
+Type  : Slow 1200mV 85C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -17.784
+TNS   : -574.341
+
+Type  : Slow 1200mV 85C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -13.413
+TNS   : -11368.395
+
+Type  : Slow 1200mV 85C Model Setup 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : -7.900
+TNS   : -519.222
+
+Type  : Slow 1200mV 85C Model Setup 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -7.419
+TNS   : -450.287
+
+Type  : Slow 1200mV 85C Model Setup 'btn_n_i[3]'
+Slack : -4.165
+TNS   : -56.166
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:btnscl|result_o'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'vga:vga|hcnt[4]'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'pll2|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.207
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clocks:clks|clock_3m_s'
+Slack : -2.920
+TNS   : -27.752
+
+Type  : Slow 1200mV 85C Model Hold 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -1.440
+TNS   : -9.921
+
+Type  : Slow 1200mV 85C Model Hold 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.439
+TNS   : -0.439
+
+Type  : Slow 1200mV 85C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.367
+TNS   : -0.762
+
+Type  : Slow 1200mV 85C Model Hold 'pll2|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.127
+TNS   : -0.260
+
+Type  : Slow 1200mV 85C Model Hold 'btn_n_i[3]'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:btnscl|result_o'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga:vga|hcnt[4]'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : 1.823
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -16.113
+TNS   : -12140.637
+
+Type  : Slow 1200mV 85C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -15.670
+TNS   : -188.036
+
+Type  : Slow 1200mV 85C Model Recovery 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : -13.973
+TNS   : -1244.685
+
+Type  : Slow 1200mV 85C Model Recovery 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -12.986
+TNS   : -1332.865
+
+Type  : Slow 1200mV 85C Model Recovery 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : -12.924
+TNS   : -25.848
+
+Type  : Slow 1200mV 85C Model Recovery 'clocks:clks|clock_3m_s'
+Slack : -12.089
+TNS   : -2035.531
+
+Type  : Slow 1200mV 85C Model Recovery 'btn_n_i[3]'
+Slack : -5.560
+TNS   : -88.280
+
+Type  : Slow 1200mV 85C Model Recovery 'vga:vga|hcnt[4]'
+Slack : -4.804
+TNS   : -4.804
+
+Type  : Slow 1200mV 85C Model Removal 'clocks:clks|clock_3m_s'
+Slack : 1.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'btn_n_i[3]'
+Slack : 1.659
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'vga:vga|hcnt[4]'
+Slack : 2.237
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : 5.787
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : 6.289
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : 10.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 12.970
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 13.411
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : -3.201
+TNS   : -5675.300
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'btn_n_i[3]'
+Slack : -3.000
+TNS   : -95.022
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clocks:clks|clock_3m_s'
+Slack : -1.487
+TNS   : -1445.364
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -1.487
+TNS   : -196.284
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : -1.487
+TNS   : -172.492
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:btnscl|result_o'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga:vga|hcnt[4]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll2|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.656
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.510
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_50_i'
+Slack : 9.920
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.503
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 22.831
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -41.696
+TNS   : -1977.126
+
+Type  : Slow 1200mV 0C Model Setup 'clocks:clks|clock_3m_s'
+Slack : -20.088
+TNS   : -8690.059
+
+Type  : Slow 1200mV 0C Model Setup 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : -18.956
+TNS   : -12623.036
+
+Type  : Slow 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -16.254
+TNS   : -523.128
+
+Type  : Slow 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -12.264
+TNS   : -10456.836
+
+Type  : Slow 1200mV 0C Model Setup 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : -7.798
+TNS   : -487.577
+
+Type  : Slow 1200mV 0C Model Setup 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -7.366
+TNS   : -417.568
+
+Type  : Slow 1200mV 0C Model Setup 'btn_n_i[3]'
+Slack : -4.103
+TNS   : -56.538
+
+Type  : Slow 1200mV 0C Model Setup 'vga:vga|hcnt[4]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:btnscl|result_o'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'pll2|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.288
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clocks:clks|clock_3m_s'
+Slack : -2.631
+TNS   : -23.733
+
+Type  : Slow 1200mV 0C Model Hold 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -1.449
+TNS   : -9.215
+
+Type  : Slow 1200mV 0C Model Hold 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.481
+TNS   : -0.481
+
+Type  : Slow 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.451
+TNS   : -1.025
+
+Type  : Slow 1200mV 0C Model Hold 'pll2|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.089
+TNS   : -0.149
+
+Type  : Slow 1200mV 0C Model Hold 'btn_n_i[3]'
+Slack : -0.043
+TNS   : -0.043
+
+Type  : Slow 1200mV 0C Model Hold 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga:vga|hcnt[4]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:btnscl|result_o'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : 1.757
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -15.146
+TNS   : -11419.817
+
+Type  : Slow 1200mV 0C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -14.738
+TNS   : -176.839
+
+Type  : Slow 1200mV 0C Model Recovery 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : -13.263
+TNS   : -1197.887
+
+Type  : Slow 1200mV 0C Model Recovery 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : -12.379
+TNS   : -24.758
+
+Type  : Slow 1200mV 0C Model Recovery 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -12.371
+TNS   : -1281.702
+
+Type  : Slow 1200mV 0C Model Recovery 'clocks:clks|clock_3m_s'
+Slack : -11.559
+TNS   : -1918.390
+
+Type  : Slow 1200mV 0C Model Recovery 'btn_n_i[3]'
+Slack : -5.655
+TNS   : -89.699
+
+Type  : Slow 1200mV 0C Model Recovery 'vga:vga|hcnt[4]'
+Slack : -4.621
+TNS   : -4.621
+
+Type  : Slow 1200mV 0C Model Removal 'btn_n_i[3]'
+Slack : 1.183
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clocks:clks|clock_3m_s'
+Slack : 1.324
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'vga:vga|hcnt[4]'
+Slack : 1.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : 5.161
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : 5.612
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : 9.303
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 11.542
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 12.006
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : -3.201
+TNS   : -5675.300
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'btn_n_i[3]'
+Slack : -3.000
+TNS   : -100.894
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clocks:clks|clock_3m_s'
+Slack : -1.487
+TNS   : -1445.367
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -1.487
+TNS   : -196.729
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : -1.487
+TNS   : -172.976
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:btnscl|result_o'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga:vga|hcnt[4]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll2|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.659
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.510
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_50_i'
+Slack : 9.928
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.476
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 22.843
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -9.669
+TNS   : -697.237
+
+Type  : Fast 1200mV 0C Model Setup 'clocks:clks|clock_3m_s'
+Slack : -9.608
+TNS   : -3521.677
+
+Type  : Fast 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -8.184
+TNS   : -262.936
+
+Type  : Fast 1200mV 0C Model Setup 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : -7.918
+TNS   : -4718.785
+
+Type  : Fast 1200mV 0C Model Setup 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.002
+TNS   : -5588.285
+
+Type  : Fast 1200mV 0C Model Setup 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : -3.480
+TNS   : -195.969
+
+Type  : Fast 1200mV 0C Model Setup 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -3.273
+TNS   : -136.077
+
+Type  : Fast 1200mV 0C Model Setup 'btn_n_i[3]'
+Slack : -1.764
+TNS   : -18.950
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:btnscl|result_o'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'vga:vga|hcnt[4]'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pll2|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.595
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clocks:clks|clock_3m_s'
+Slack : -1.307
+TNS   : -15.480
+
+Type  : Fast 1200mV 0C Model Hold 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -0.602
+TNS   : -5.594
+
+Type  : Fast 1200mV 0C Model Hold 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.181
+TNS   : -0.181
+
+Type  : Fast 1200mV 0C Model Hold 'pll2|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.097
+TNS   : -0.284
+
+Type  : Fast 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.092
+TNS   : -0.181
+
+Type  : Fast 1200mV 0C Model Hold 'btn_n_i[3]'
+Slack : 0.023
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:btnscl|result_o'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga:vga|hcnt[4]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : 0.985
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.859
+TNS   : -5959.914
+
+Type  : Fast 1200mV 0C Model Recovery 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -7.668
+TNS   : -92.010
+
+Type  : Fast 1200mV 0C Model Recovery 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : -6.742
+TNS   : -606.088
+
+Type  : Fast 1200mV 0C Model Recovery 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -6.283
+TNS   : -657.492
+
+Type  : Fast 1200mV 0C Model Recovery 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : -6.188
+TNS   : -12.376
+
+Type  : Fast 1200mV 0C Model Recovery 'clocks:clks|clock_3m_s'
+Slack : -5.826
+TNS   : -879.385
+
+Type  : Fast 1200mV 0C Model Recovery 'btn_n_i[3]'
+Slack : -2.791
+TNS   : -44.255
+
+Type  : Fast 1200mV 0C Model Recovery 'vga:vga|hcnt[4]'
+Slack : -2.258
+TNS   : -2.258
+
+Type  : Fast 1200mV 0C Model Removal 'btn_n_i[3]'
+Slack : 0.410
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clocks:clks|clock_3m_s'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'vga:vga|hcnt[4]'
+Slack : 0.955
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : 2.291
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : 2.505
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : 4.399
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 5.805
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.963
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'btn_n_i[3]'
+Slack : -3.000
+TNS   : -33.061
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'jt51_wrapper:jt51|jt51:jt51_inst|p1'
+Slack : -1.000
+TNS   : -3812.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clocks:clks|clock_3m_s'
+Slack : -1.000
+TNS   : -972.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'msx:the_msx|T80a:cpu|T80:u0|A[2]'
+Slack : -1.000
+TNS   : -132.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'msx:the_msx|T80a:cpu|T80:u0|A[0]'
+Slack : -1.000
+TNS   : -116.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:btnscl|result_o'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga:vga|hcnt[4]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll2|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.749
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.602
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_50_i'
+Slack : 9.584
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.594
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 23.019
+TNS   : 0.000
+
+------------------------------------------------------------

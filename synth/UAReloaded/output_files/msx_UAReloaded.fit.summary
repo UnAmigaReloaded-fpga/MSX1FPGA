@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Oct 26 11:49:47 2020
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : msx_UAReloaded
+Top-level Entity Name : UAReloaded_top
+Family : Cyclone IV E
+Device : EP4CE55F23C8
+Timing Models : Final
+Total logic elements : 11,492 / 55,856 ( 21 % )
+    Total combinational functions : 10,763 / 55,856 ( 19 % )
+    Dedicated logic registers : 4,292 / 55,856 ( 8 % )
+Total registers : 4292
+Total pins : 97 / 325 ( 30 % )
+Total virtual pins : 0
+Total memory bits : 221,485 / 2,396,160 ( 9 % )
+Embedded Multiplier 9-bit elements : 21 / 308 ( 7 % )
+Total PLLs : 1 / 4 ( 25 % )

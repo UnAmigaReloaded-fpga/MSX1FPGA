@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Oct 26 11:45:03 2020
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : msx_UAReloaded
+Top-level Entity Name : UAReloaded_top
+Family : Cyclone IV E
+Total logic elements : 12,261
+    Total combinational functions : 10,741
+    Dedicated logic registers : 4,387
+Total registers : 4387
+Total pins : 97
+Total virtual pins : 0
+Total memory bits : 221,485
+Embedded Multiplier 9-bit elements : 21
+Total PLLs : 1

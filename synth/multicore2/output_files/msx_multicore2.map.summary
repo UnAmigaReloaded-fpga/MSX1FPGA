@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Feb 21 23:34:58 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : msx_multicore2
+Top-level Entity Name : multicore2_top
+Family : Cyclone IV E
+Total logic elements : 18,876
+    Total combinational functions : 13,630
+    Dedicated logic registers : 8,491
+Total registers : 8507
+Total pins : 133
+Total virtual pins : 0
+Total memory bits : 472,018
+Embedded Multiplier 9-bit elements : 21
+Total PLLs : 2

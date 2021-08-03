@@ -1,0 +1,475 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.41 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> Reading design: audio_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "audio_top.prj"
+Ignore Synthesis Constraint File   : YES
+
+---- Target Parameters
+Output File Name                   : "audio_top"
+Output Format                      : NGC
+Target Device                      : xc6slx25-2-ftg256
+
+---- Source Options
+Top Module Name                    : audio_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\Users\benit\Downloads\UnAmiga\ZXDos\Cores\msx1fpga-1.3\src\audio\i2s\dac_if.vhd" into library work
+Parsing entity <dac_if>.
+Parsing architecture <Behavioral> of entity <dac_if>.
+Parsing VHDL file "D:\Users\benit\Downloads\UnAmiga\ZXDos\Cores\msx1fpga-1.3\src\audio\i2s\audio_top.vhd" into library work
+Parsing entity <audio_top>.
+Parsing architecture <Behavioral> of entity <audio_top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <audio_top> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <dac_if> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <audio_top>.
+    Related source file is "D:\Users\benit\Downloads\UnAmiga\ZXDos\Cores\msx1fpga-1.3\src\audio\i2s\audio_top.vhd".
+    Found 1-bit register for signal <dac_load_R>.
+    Found 20-bit register for signal <tcount>.
+    Found 1-bit register for signal <dac_load_L>.
+    Found 20-bit adder for signal <tcount[19]_GND_4_o_add_4_OUT> created at line 1241.
+    Found 10-bit comparator lessequal for signal <n0000> created at line 69
+    Found 10-bit comparator greater for signal <tcount[9]_GND_4_o_LessThan_2_o> created at line 69
+    Found 10-bit comparator lessequal for signal <n0004> created at line 72
+    Found 10-bit comparator greater for signal <tcount[9]_PWR_4_o_LessThan_4_o> created at line 72
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+Unit <audio_top> synthesized.
+
+Synthesizing Unit <dac_if>.
+    Related source file is "D:\Users\benit\Downloads\UnAmiga\ZXDos\Cores\msx1fpga-1.3\src\audio\i2s\dac_if.vhd".
+    Found 16-bit register for signal <sreg>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <dac_if> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 20-bit adder                                          : 1
+# Registers                                            : 4
+ 1-bit register                                        : 2
+ 16-bit register                                       : 1
+ 20-bit register                                       : 1
+# Comparators                                          : 4
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 2
+# Multiplexers                                         : 2
+ 16-bit 2-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <audio_top>.
+The following registers are absorbed into counter <tcount>: 1 register on signal <tcount>.
+Unit <audio_top> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 20-bit up counter                                     : 1
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+# Comparators                                          : 4
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 2
+# Multiplexers                                         : 2
+ 16-bit 2-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <tcount_10> of sequential type is unconnected in block <audio_top>.
+WARNING:Xst:2677 - Node <tcount_11> of sequential type is unconnected in block <audio_top>.
+WARNING:Xst:2677 - Node <tcount_12> of sequential type is unconnected in block <audio_top>.
+WARNING:Xst:2677 - Node <tcount_13> of sequential type is unconnected in block <audio_top>.
+WARNING:Xst:2677 - Node <tcount_14> of sequential type is unconnected in block <audio_top>.
+WARNING:Xst:2677 - Node <tcount_15> of sequential type is unconnected in block <audio_top>.
+WARNING:Xst:2677 - Node <tcount_16> of sequential type is unconnected in block <audio_top>.
+WARNING:Xst:2677 - Node <tcount_17> of sequential type is unconnected in block <audio_top>.
+WARNING:Xst:2677 - Node <tcount_18> of sequential type is unconnected in block <audio_top>.
+WARNING:Xst:2677 - Node <tcount_19> of sequential type is unconnected in block <audio_top>.
+
+Optimizing unit <audio_top> ...
+
+Optimizing unit <dac_if> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block audio_top, actual ratio is 0.
+FlipFlop tcount_4 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 29
+ Flip-Flops                                            : 29
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : audio_top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 51
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 9
+#      LUT4                        : 1
+#      LUT5                        : 16
+#      LUT6                        : 3
+#      MUXCY                       : 9
+#      VCC                         : 1
+#      XORCY                       : 10
+# FlipFlops/Latches                : 29
+#      FD                          : 13
+#      FD_1                        : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 36
+#      IBUF                        : 32
+#      OBUF                        : 4
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx25ftg256-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              29  out of  30064     0%  
+ Number of Slice LUTs:                   30  out of  15032     0%  
+    Number used as Logic:                30  out of  15032     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     31
+   Number with an unused Flip Flop:       2  out of     31     6%  
+   Number with an unused LUT:             1  out of     31     3%  
+   Number of fully used LUT-FF pairs:    28  out of     31    90%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          37
+ Number of bonded IOBs:                  37  out of    186    19%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_50MHz                          | BUFGP                  | 13    |
+tcount_4                           | NONE(dac/sreg_15)      | 16    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 3.094ns (Maximum Frequency: 323.206MHz)
+   Minimum input arrival time before clock: 2.614ns
+   Maximum output required time after clock: 4.697ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_50MHz'
+  Clock period: 3.094ns (frequency: 323.206MHz)
+  Total number of paths / destination ports: 90 / 13
+-------------------------------------------------------------------------
+Delay:               3.094ns (Levels of Logic = 2)
+  Source:            tcount_4 (FF)
+  Destination:       dac_load_R (FF)
+  Source Clock:      clk_50MHz rising
+  Destination Clock: clk_50MHz rising
+
+  Data Path: tcount_4 to dac_load_R
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              19   0.525   1.261  tcount_4 (tcount_4)
+     LUT6:I5->O            2   0.254   0.726  GND_4_o_tcount[9]_LessThan_1_o1 (GND_4_o_tcount[9]_LessThan_1_o1)
+     LUT6:I5->O            1   0.254   0.000  dac_load_R_rstpot (dac_load_R_rstpot)
+     FD:D                      0.074          dac_load_R
+    ----------------------------------------
+    Total                      3.094ns (1.107ns logic, 1.987ns route)
+                                       (35.8% logic, 64.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'tcount_4'
+  Clock period: 1.639ns (frequency: 610.128MHz)
+  Total number of paths / destination ports: 15 / 15
+-------------------------------------------------------------------------
+Delay:               1.639ns (Levels of Logic = 1)
+  Source:            dac/sreg_14 (FF)
+  Destination:       dac/sreg_15 (FF)
+  Source Clock:      tcount_4 falling
+  Destination Clock: tcount_4 falling
+
+  Data Path: dac/sreg_14 to dac/sreg_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             1   0.525   0.790  dac/sreg_14 (dac/sreg_14)
+     LUT5:I3->O            1   0.250   0.000  dac/Mmux_sreg[14]_L_data[15]_mux_1_OUT71 (dac/sreg[14]_L_data[15]_mux_1_OUT<15>)
+     FD_1:D                    0.074          dac/sreg_15
+    ----------------------------------------
+    Total                      1.639ns (0.849ns logic, 0.790ns route)
+                                       (51.8% logic, 48.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'tcount_4'
+  Total number of paths / destination ports: 32 / 16
+-------------------------------------------------------------------------
+Offset:              2.614ns (Levels of Logic = 2)
+  Source:            R_data<15> (PAD)
+  Destination:       dac/sreg_15 (FF)
+  Destination Clock: tcount_4 falling
+
+  Data Path: R_data<15> to dac/sreg_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.958  R_data_15_IBUF (R_data_15_IBUF)
+     LUT5:I1->O            1   0.254   0.000  dac/Mmux_sreg[14]_L_data[15]_mux_1_OUT71 (dac/sreg[14]_L_data[15]_mux_1_OUT<15>)
+     FD_1:D                    0.074          dac/sreg_15
+    ----------------------------------------
+    Total                      2.614ns (1.656ns logic, 0.958ns route)
+                                       (63.4% logic, 36.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_50MHz'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.697ns (Levels of Logic = 1)
+  Source:            tcount_4 (FF)
+  Destination:       dac_SCLK (PAD)
+  Source Clock:      clk_50MHz rising
+
+  Data Path: tcount_4 to dac_SCLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              19   0.525   1.260  tcount_4 (tcount_4)
+     OBUF:I->O                 2.912          dac_SCLK_OBUF (dac_SCLK)
+    ----------------------------------------
+    Total                      4.697ns (3.437ns logic, 1.260ns route)
+                                       (73.2% logic, 26.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'tcount_4'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.118ns (Levels of Logic = 1)
+  Source:            dac/sreg_15 (FF)
+  Destination:       dac_SDIN (PAD)
+  Source Clock:      tcount_4 falling
+
+  Data Path: dac/sreg_15 to dac_SDIN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             1   0.525   0.681  dac/sreg_15 (dac/sreg_15)
+     OBUF:I->O                 2.912          dac_SDIN_OBUF (dac_SDIN)
+    ----------------------------------------
+    Total                      4.118ns (3.437ns logic, 0.681ns route)
+                                       (83.5% logic, 16.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk_50MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_50MHz      |    3.094|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock tcount_4
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_50MHz      |         |         |    2.465|         |
+tcount_4       |         |         |    1.639|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 20.28 secs
+ 
+--> 
+
+Total memory usage is 4496252 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

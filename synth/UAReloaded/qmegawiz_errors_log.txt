@@ -1,0 +1,41 @@
+
+
+D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/syn-CycloneV/pll1.vhd
+
+May 27 12AM:03:24>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/syn-CycloneV/pll1.vhd
+
+Jul 30 12PM:25:41>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/syn-UnAmigaPlus/pll1.vhd
+
+Aug 27 07PM:15:59>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/syn-UnAmigaPlus/pll1.vhd
+
+Aug 27 07PM:16:01>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/syn-UnAmigaPlus/pll1.vhd
+
+Aug 27 07PM:16:39>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/syn-UnAmigaPlus/pll1.vhd
+
+Aug 27 07PM:16:47>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/syn-UnAmigaPlus/pll1.vhd
+
+Aug 27 07PM:16:50>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/Users/benit/Downloads/UnAmiga/ZXDos/Cores/msx1fpga-1.3/src/syn-UnAmigaPlus/pll1.vhd
+
+Aug 27 07PM:16:59>: Megafunction PLL Intel FPGA IP v18.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

@@ -1,0 +1,23 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Mar 03 13:08:51 2021
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 11 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   flash_data_i_IBUF
+   jt51/jt51_inst/u_mmr/u_reg/Mram_reg_ch1_RAMD_D1_O
+   jt51/jt51_inst/u_mmr/u_reg/Mram_reg_ch2_RAMD_D1_O
+   jt51/jt51_inst/u_mmr/u_reg/Mram_reg_ch3_RAMD_D1_O
+   jt51/jt51_inst/u_mmr/u_reg/Mram_reg_ch4_RAMD_D1_O
+   opll1/pg/MEM/Mram_phase_array1_RAMD_D1_O
+   opll1/pg/MEM/Mram_phase_array2_RAMD_D1_O
+   opll1/pg/MEM/Mram_phase_array3_RAMD_D1_O
+   the_msx/cpu/u0/Regs/Mram_RegsH11_RAMD_D1_O
+   the_msx/cpu/u0/Regs/Mram_RegsL11_RAMD_D1_O
+   the_msx/swiop/ps2fifo/Mram_memory_v1_RAMD_D1_O
+
+
